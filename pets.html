@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Available Pets | FurEver Home</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+🐾 FurEver Home
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="pets.html" class="active">Pets</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="pets-hero">
+
+<div class="pets-overlay">
+
+<div class="pets-heading">
+
+<h1>
+
+Meet Our<br>
+
+<span>Lovely Pets</span>
+
+</h1>
+
+<p>
+
+Browse rescued dogs and cats waiting for a forever family.
+
+Find your perfect companion and give them a loving home.
+
+</p>
+
+</div>
+
+<!-- Search -->
+
+<div class="search-container">
+
+<span class="search-icon"></span>
+
+<input
+
+type="text"
+
+id="searchPets"
+
+placeholder="Search pets by name or breed...">
+
+</div>
+
+<!-- Filters -->
+
+<div class="filter-buttons">
+
+<button class="filter-btn active"
+
+data-filter="all">
+
+🐾 All Pets
+
+</button>
+
+<button class="filter-btn"
+
+data-filter="dog">
+
+🐶 Dogs
+
+</button>
+
+<button class="filter-btn"
+
+data-filter="cat">
+
+🐱 Cats
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PETS ================= -->
+
+<section class="pets-section">
+
+<div class="pets-grid">
+
+<!-- ================= PET CARD 1 ================= -->
+
+<div class="pet-card dog">
+
+<div class="pet-image">
+
+<img src="https://a.storyblok.com/f/125940/750x1022/5535905547/ollie-landingpages-bestdogfood-golderetriever-header-mobile.png" alt="Buddy">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Buddy</h2>
+
+<p class="breed">Golden Retriever</p>
+
+<div class="pet-info">
+
+<span>🐶 Dog</span>
+
+<span>♂ Male</span>
+
+<span>2 Years</span>
+
+</div>
+
+<a href="pet-details.html?id=buddy" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 2 ================= -->
+
+<div class="pet-card dog">
+
+<div class="pet-image">
+
+<img src="https://cdn.britannica.com/05/234205-050-F8D2E018/Shih-tzu-dog.jpg" alt="Max">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Max</h2>
+
+<p class="breed">Shih Tzu</p>
+
+<div class="pet-info">
+
+<span>🐶 Dog</span>
+
+<span>♂ Male</span>
+
+<span>1 Year</span>
+
+</div>
+
+<a href="pet-details.html?id=max" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 3 ================= -->
+
+<div class="pet-card dog">
+
+<div class="pet-image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP8ZP51_Mh0CqLpPlnMJ3IMGDgP07rLKDkCKAYCdBspGAOt48G92M_z_o&s=10.jpg" alt="Bella">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Bella</h2>
+
+<p class="breed">Labrador Retriever</p>
+
+<div class="pet-info">
+
+<span>🐶 Dog</span>
+
+<span>♀ Female</span>
+
+<span>3 Years</span>
+
+</div>
+
+<a href="pet-details.html?id=bella" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 4 ================= -->
+
+<div class="pet-card dog">
+
+<div class="pet-image">
+
+<img src="https://bestforpet.co.nz/wp-content/uploads/2025/11/Beagle.jpg" alt="Charlie">
+
+<span class="status reserved">Reserved</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Charlie</h2>
+
+<p class="breed">Beagle</p>
+
+<div class="pet-info">
+
+<span>🐶 Dog</span>
+
+<span>♂ Male</span>
+
+<span>2 Years</span>
+
+</div>
+
+<a href="pet-details.html?id=charlie" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 5 ================= -->
+
+<div class="pet-card cat">
+
+<div class="pet-image">
+
+<img src="https://supertails.com/cdn/shop/articles/persian-cat_516e270f-7989-4d3a-9769-4db063118ec6_1200x.jpg?v=1774674105.jpg" alt="Luna">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Luna</h2>
+
+<p class="breed">Persian Cat</p>
+
+<div class="pet-info">
+
+<span>🐱 Cat</span>
+
+<span>♀ Female</span>
+
+<span>1 Year</span>
+
+</div>
+
+<a href="pet-details.html?id=luna" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 6 ================= -->
+
+<div class="pet-card cat">
+
+<div class="pet-image">
+
+<img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fca42f04-2474-4302-a238-990c8aebfe8c/Siamese_cat_1110x740.jpg" alt="Milo">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Milo</h2>
+
+<p class="breed">Siamese Cat</p>
+
+<div class="pet-info">
+
+<span>🐱 Cat</span>
+
+<span>♂ Male</span>
+
+<span>2 Years</span>
+
+</div>
+
+<a href="pet-details.html?id=milo" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 7 ================= -->
+
+<div class="pet-card cat">
+
+<div class="pet-image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_nAC1WrPtV_niw9CkIWdCzhNfpmoPVXr5SwRjOtGbm2uegSA-9fVHaE&s=10.jpg" alt="Nala">
+
+<span class="status available">Available</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Nala</h2>
+
+<p class="breed">British Shorthair</p>
+
+<div class="pet-info">
+
+<span>🐱 Cat</span>
+
+<span>♀ Female</span>
+
+<span>3 Years</span>
+
+</div>
+
+<a href="pet-details.html?id=nala" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ================= PET CARD 8 ================= -->
+
+<div class="pet-card cat">
+
+<div class="pet-image">
+
+<img src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2022/02-11/gray+stripe+domestic+shortahair+tabby+cat+resting+in+a+maroon+cat+tree+bed-min.jpg" alt="Mochi">
+
+<span class="status adopted">Adopted</span>
+
+</div>
+
+<div class="pet-content">
+
+<h2>Mochi</h2>
+
+<p class="breed">Domestic Short Hair</p>
+
+<div class="pet-info">
+
+<span>🐱 Cat</span>
+
+<span>♀ Female</span>
+
+<span>8 Months</span>
+
+</div>
+
+<a href="pet-details.html?id=mochi" class="details-btn">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY ADOPT ================= -->
+
+<section class="adoption-benefits">
+
+<div class="benefits-heading">
+
+<h2>Why Adopt from FurEver Home?</h2>
+
+<p>
+
+Every adoption changes two lives—the pet's and yours. We make sure every
+dog and cat is healthy, loved, and ready for a forever home.
+
+</p>
+
+</div>
+
+<div class="benefits-grid">
+
+<div class="benefit-card">
+
+<div class="benefit-icon">❤️</div>
+
+<h3>Healthy Pets</h3>
+
+<p>
+
+Every pet is vaccinated, dewormed, and examined by a veterinarian before
+being listed for adoption.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<div class="benefit-icon">🏡</div>
+
+<h3>Responsible Adoption</h3>
+
+<p>
+
+We carefully match pets with families to ensure every adoption becomes a
+lifelong relationship.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<div class="benefit-icon">🐾</div>
+
+<h3>Rescue & Care</h3>
+
+<p>
+
+Our rescued dogs and cats receive proper nutrition, shelter, and love
+while waiting for their forever family.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ADOPTION STEPS ================= -->
+
+<section class="adoption-steps">
+
+<h2>Adoption Process</h2>
+
+<div class="steps-grid">
+
+<div class="step">
+
+<div class="step-number">1</div>
+
+<h3>Browse Pets</h3>
+
+<p>
+
+Explore our available dogs and cats and choose the one that fits your
+family.
+
+</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-number">2</div>
+
+<h3>Submit Application</h3>
+
+<p>
+
+Complete our adoption form so our team can learn more about you.
+
+</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-number">3</div>
+
+<h3>Meet Your Pet</h3>
+
+<p>
+
+Visit our adoption center and spend time getting to know your future
+companion.
+
+</p>
+
+</div>
+
+<div class="step">
+
+<div class="step-number">4</div>
+
+<h3>Take Them Home</h3>
+
+<p>
+
+After approval, your newest family member is ready to start a happy life
+with you.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CALL TO ACTION ================= -->
+
+<section class="pets-cta">
+
+<h2>Ready to Find Your New Best Friend?</h2>
+
+<p>
+
+Open your heart and home to a rescued pet today.
+
+</p>
+
+<a href="contact.html" class="cta-btn">
+
+Start Your Adoption
+
+</a>
+
+</section>
+
+</main>
+
+  <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>🐾 FurEver Home</h3>
+
+                <p>
+                    Giving rescued dogs and cats a second chance
+                    through responsible adoption.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="pets.html">Pets</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>📍 Sampaloc, Manila</p>
+
+                <p>📞 +63 912 345 6789</p>
+
+                <p>📧 support@fureverhome.com</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 FurEver Home | Adopt Don't Shop 🐾
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

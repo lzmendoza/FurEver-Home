@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurEver Home | Pet Adoption</title>
+
+    <meta name="description"
+        content="FurEver Home helps rescued dogs and cats find their forever family through safe and responsible adoption.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================= TERMS ================= -->
+
+    <div id="termsModal" class="modal">
+
+        <div class="modal-content">
+
+            <h2>🐾 Welcome to FurEver Home</h2>
+
+            <p>
+                Before continuing, please read and agree to our Terms &
+                Conditions in accordance with Republic Act No. 8485,
+                as amended by Republic Act No. 10631.
+            </p>
+
+            <ul>
+                <li>✔ Submit truthful information.</li>
+                <li>✔ Personal data is used only for adoption purposes.</li>
+                <li>✔ Animal abuse or false information may result in application rejection.</li>
+            </ul>
+
+            <label>
+
+                <input type="checkbox" id="agree">
+
+                I agree to the Terms & Conditions
+
+            </label>
+
+            <br><br>
+
+            <button id="continueBtn">
+
+                Continue
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ================= REGISTER ================= -->
+
+    <div id="registerModal" class="modal">
+
+        <div class="modal-content">
+
+            <h2>Create an Account</h2>
+
+            <input type="text" placeholder="Full Name">
+
+            <input type="email" placeholder="Email Address">
+
+            <input type="password" placeholder="Password">
+
+            <button>Register</button>
+
+            <br><br>
+
+            <button id="browseBtn">
+
+                Browse as Guest
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Floating Register -->
+
+    <div class="floating-register">
+
+        <a href="#">
+
+            Register Here
+
+        </a>
+
+    </div>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+
+                🐾 FurEver Home
+
+            </div>
+
+            <ul>
+
+                <li><a href="index.html" class="active">Home</a></li>
+
+                <li><a href="pets.html">Pets</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+
+    <section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <h1>
+                Find Your <span>FurEver</span> Best Friend
+            </h1>
+
+            <p>
+                We are the FurEver Home! Giving rescued dogs and cats a second chance at life through
+                responsible adoption.
+            </p>
+
+            <a href="pets.html" class="hero-btn">
+                Adopt Now
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="https://png.pngtree.com/png-clipart/20241121/original/pngtree-cute-pet-cats-and-dogs-png-image_17273267.png" alt="Golden Retriever and Cat">
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Introduction -->
+
+    <section class="intro">
+
+            <div class="intro-image">
+
+                <div class="hero-image">
+    <img src="https://static.vecteezy.com/system/resources/previews/047/006/768/non_2x/happy-dog-and-cat-that-looking-at-the-camera-together-isolated-on-white-background-free-photo.jpg" alt="Dog and Cat">
+</div>
+
+            </div>
+
+            <div class="intro-text">
+
+                <h2>
+
+                    Welcome to FurEver Home 🐾
+
+                </h2>
+
+                <p>
+
+                    FurEver Home is a dedicated pet adoption center focused on
+                    rescuing, rehabilitating, and rehoming dogs and cats.
+                    Every animal receives proper medical care, vaccinations,
+                    and lots of love while waiting for a forever family.
+
+                </p>
+
+                <p>
+
+                    Our mission is to make pet adoption simple, responsible,
+                    and meaningful by helping loving families find the perfect
+                    furry companion.
+
+                </p>
+
+
+                <a href="about.html">
+
+                    <button>
+
+                        Learn More
+
+                    </button>
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ================= FEATURED PETS ================= -->
+
+        <section class="featured">
+
+            <h2>
+
+                Meet Some of Our Lovely Pets 🐾
+
+            </h2>
+
+            <p class="section-description">
+
+                            These adorable dogs and cats are waiting for their forever homes.
+
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <img src="https://a.storyblok.com/f/125940/750x1022/5535905547/ollie-landingpages-bestdogfood-golderetriever-header-mobile.png"
+                        alt="Buddy">
+
+                    <h3>
+
+                        Buddy
+
+                    </h3>
+
+                    <p>
+
+                        Golden Retriever
+
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <img src="https://supertails.com/cdn/shop/articles/persian-cat_516e270f-7989-4d3a-9769-4db063118ec6_1200x.jpg?v=1774674105.jpg"
+                        alt="Luna">
+
+                    <h3>
+
+                        Luna
+
+                    </h3>
+
+                    <p>
+
+                        Persian Cat
+
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <img src="https://cdn.britannica.com/05/234205-050-F8D2E018/Shih-tzu-dog.jpg"
+                        alt="Max">
+
+                    <h3>
+
+                        Max
+
+                    </h3>
+
+                    <p>
+
+                        Shih Tzu
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+        <!-- ================= VIDEO ================= -->
+
+        <section class="video-section">
+
+            <h2>See Our Rescue Journey</h2>
+
+            <p>
+                Watch how our rescued dogs and cats are cared for before finding
+                their forever homes.
+            </p>
+
+            <video controls poster="https://humanepro.org/sites/default/files/styles/article_new/public/images/hero/LP_MainImage_Happy-Group_3L.jpg">
+
+                <source src="Shelter dogs' reactions to being adopted.mp4" type="video/mp4">
+
+                Your browser does not support the video tag.
+
+            </video>
+
+        </section>
+
+        <!-- ================= WHY CHOOSE US ================= -->
+
+        <section class="why">
+
+            <h2>Why Adopt With FurEver Home?</h2>
+
+            <div class="cards">
+
+                <article>
+
+                    <h3>❤️ Safe Adoption</h3>
+
+                    <p>
+                        Every pet undergoes health screening, vaccination,
+                        and proper care before adoption.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>🐶 Healthy Pets</h3>
+
+                    <p>
+                        Complete medical records and vaccination history
+                        are provided for every pet.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>🏡 Loving Families</h3>
+
+                    <p>
+                        We carefully match every pet with a family
+                        that fits their personality and needs.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ================= STATISTICS ================= -->
+
+        <section class="stats">
+
+            <div>
+
+                <h2>500+</h2>
+
+                <p>Successful Adoptions</p>
+
+            </div>
+
+            <div>
+
+                <h2>150+</h2>
+
+                <p>Volunteer Partners</p>
+
+            </div>
+
+            <div>
+
+                <h2>98%</h2>
+
+                <p>Happy Adoption Rate</p>
+
+            </div>
+
+            <div>
+
+                <h2>8 Years</h2>
+
+                <p>Serving the Community</p>
+
+            </div>
+
+        </section>
+
+        <!-- ================= TESTIMONIALS ================= -->
+
+        <section class="testimonials">
+
+            <h2>Happy Adoption Stories</h2>
+
+            <div class="cards">
+
+                <article>
+
+                    <p>
+                        "Buddy became the perfect addition to our family.
+                        Thank you FurEver Home!"
+                    </p>
+
+                    <strong>- The Cruz Family</strong>
+
+                </article>
+
+                <article>
+
+                    <p>
+                        "The adoption process was smooth and professional.
+                        Luna is now our best friend."
+                    </p>
+
+                    <strong>- Maria Santos</strong>
+
+                </article>
+
+                <article>
+
+                    <p>
+                        "We highly recommend FurEver Home to anyone
+                        looking to adopt a pet."
+                    </p>
+
+                    <strong>- John Reyes</strong>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ================= CALL TO ACTION ================= -->
+
+        <section class="cta">
+
+            <h2>
+
+                Ready to Meet Your New Best Friend?
+
+            </h2>
+
+            <p>
+
+                Browse our available dogs and cats and start your
+                adoption journey today.
+
+            </p>
+
+            <a href="pets.html">
+
+                <button>
+
+                    Browse Pets
+
+                </button>
+
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>🐾 FurEver Home</h3>
+
+                <p>
+                    Giving rescued dogs and cats a second chance
+                    through responsible adoption.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="pets.html">Pets</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>📍 Sampaloc, Manila</p>
+
+                <p>📞 +63 912 345 6789</p>
+
+                <p>📧 support@fureverhome.com</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 FurEver Home | Adopt Don't Shop 🐾
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
