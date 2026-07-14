@@ -2232,3 +2232,39 @@ footer hr {
 .copyright {
     text-align: center;
 }
+
+/* ==========================================
+   FINAL FIX
+========================================== */
+
+.cards, 
+.pets-grid {
+    display: grid !important;
+    /* Allows the cards to grow and fill up the row seamlessly */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; 
+    gap: 30px !important;
+    width: 100% !important;
+    max-width: 1400px !important; /* Widens the container boundary */
+    margin: 40px auto 0 !important;
+}
+
+.card, 
+.pet-card {
+    width: 100% !important;
+    max-width: 100% !important; /* Removes the rigid restriction so they take up the space evenly */
+}
+
+/* Ensures the images inside scale beautifully to match the new card widths */
+.card img, 
+.pet-card .pet-image img {
+    width: 100% !important;
+    height: 260px !important;
+    object-fit: cover !important;
+}
+
+/* Keeps the intro section picture looking completely normal */
+.intro-image img {
+    width: 550px !important;
+    height: 600px !important;
+    object-fit: cover !important;
+}
