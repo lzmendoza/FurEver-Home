@@ -119,12 +119,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     }
 
-
-
-
-
-
-
     /* ===============================
        FLOATING REGISTER BUTTON
     =============================== */
