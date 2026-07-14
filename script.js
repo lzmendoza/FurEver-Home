@@ -26,9 +26,6 @@ document.addEventListener("DOMContentLoaded", function(){
     const browseBtn =
     document.getElementById("browseBtn");
 
-
-
-
     /* ===============================
        SHOW TERMS MODAL
     =============================== */
@@ -41,10 +38,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     }
-
-
-
-
 
     /* ===============================
        CONTINUE BUTTON
@@ -90,13 +83,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     }
-
-
-
-
-
-
-
+   
     /* ===============================
        BROWSE AS GUEST
     =============================== */
@@ -153,8 +140,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     }
 
-
-
     /* ===============================
        REGISTER ACCOUNT
     =============================== */
@@ -201,10 +186,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
                 });
 
-
-
-
-
                 if(empty){
 
 
@@ -218,21 +199,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
                 }
 
-
-
-
-
-
                 alert(
                     "🎉 Registration Successful!"
                 );
 
-
-
                 registerModal.style.display="none";
-
-
-
+               
                 inputs.forEach(input=>{
 
                     input.value="";
@@ -246,13 +218,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     }
-
-
-
-
-
-
-
 
     /* ===============================
        CLOSE MODAL OUTSIDE CLICK
@@ -391,12 +356,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
     }
-
-
-
-
-
-
 
     /*
        SEARCH EVENT
